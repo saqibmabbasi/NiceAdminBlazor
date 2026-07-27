@@ -1,12 +1,58 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\devs\\gits\\NiceAdminBlazor\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|d:\\devs\\gits\\niceadminblazor\\niceadminblazortheme\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|solutionrelative:niceadminblazortheme\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|d:\\devs\\gits\\niceadminblazor\\niceadminblazortheme\\components\\account\\pages\\pageslogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|solutionrelative:niceadminblazortheme\\components\\account\\pages\\pageslogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagesLogin.razor",
+              "DocumentMoniker": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Account\\Pages\\PagesLogin.razor",
+              "RelativeDocumentMoniker": "NiceAdminBlazorTheme\\Components\\Account\\Pages\\PagesLogin.razor",
+              "ToolTip": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Account\\Pages\\PagesLogin.razor",
+              "RelativeToolTip": "NiceAdminBlazorTheme\\Components\\Account\\Pages\\PagesLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-27T03:19:18.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Account\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "NiceAdminBlazorTheme\\Components\\Account\\Pages\\Login.razor",
+              "ToolTip": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Account\\Pages\\Login.razor",
+              "RelativeToolTip": "NiceAdminBlazorTheme\\Components\\Account\\Pages\\Login.razor",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-27T03:19:09.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

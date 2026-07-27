@@ -1,122 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\devs\\gits\\NiceAdminBlazor\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|d:\\devs\\gits\\niceadminblazor\\niceadminblazortheme\\components\\layout\\parts\\creditbootstrapmade.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|solutionrelative:niceadminblazortheme\\components\\layout\\parts\\creditbootstrapmade.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|d:\\devs\\gits\\niceadminblazor\\niceadminblazortheme\\components\\pages\\pageserror404.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|solutionrelative:niceadminblazortheme\\components\\pages\\pageserror404.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|d:\\devs\\gits\\niceadminblazor\\niceadminblazortheme\\components\\layout\\blanklayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|solutionrelative:niceadminblazortheme\\components\\layout\\blanklayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|d:\\devs\\gits\\niceadminblazor\\niceadminblazortheme\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|solutionrelative:niceadminblazortheme\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|d:\\devs\\gits\\niceadminblazor\\niceadminblazortheme\\components\\layout\\parts\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|solutionrelative:niceadminblazortheme\\components\\layout\\parts\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|d:\\devs\\gits\\niceadminblazor\\niceadminblazortheme\\components\\layout\\parts\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7903269F-5879-4541-AA3E-6E59C5AF1DD4}|NiceAdminBlazorTheme\\NiceAdminBlazorTheme.csproj|solutionrelative:niceadminblazortheme\\components\\layout\\parts\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreditBootstrapMade.razor",
-              "DocumentMoniker": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\Parts\\CreditBootstrapMade.razor",
-              "RelativeDocumentMoniker": "NiceAdminBlazorTheme\\Components\\Layout\\Parts\\CreditBootstrapMade.razor",
-              "ToolTip": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\Parts\\CreditBootstrapMade.razor",
-              "RelativeToolTip": "NiceAdminBlazorTheme\\Components\\Layout\\Parts\\CreditBootstrapMade.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T14:16:18.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PagesError404.razor",
-              "DocumentMoniker": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Pages\\PagesError404.razor",
-              "RelativeDocumentMoniker": "NiceAdminBlazorTheme\\Components\\Pages\\PagesError404.razor",
-              "ToolTip": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Pages\\PagesError404.razor",
-              "RelativeToolTip": "NiceAdminBlazorTheme\\Components\\Pages\\PagesError404.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T14:10:43.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlankLayout.razor.css",
-              "DocumentMoniker": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\BlankLayout.razor.css",
-              "RelativeDocumentMoniker": "NiceAdminBlazorTheme\\Components\\Layout\\BlankLayout.razor.css",
-              "ToolTip": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\BlankLayout.razor.css",
-              "RelativeToolTip": "NiceAdminBlazorTheme\\Components\\Layout\\BlankLayout.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-26T14:06:00.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLayout.razor.css",
-              "DocumentMoniker": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeDocumentMoniker": "NiceAdminBlazorTheme\\Components\\Layout\\MainLayout.razor.css",
-              "ToolTip": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\MainLayout.razor.css",
-              "RelativeToolTip": "NiceAdminBlazorTheme\\Components\\Layout\\MainLayout.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-26T14:05:46.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\Parts\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "NiceAdminBlazorTheme\\Components\\Layout\\Parts\\NavMenu.razor.css",
-              "ToolTip": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\Parts\\NavMenu.razor.css",
-              "RelativeToolTip": "NiceAdminBlazorTheme\\Components\\Layout\\Parts\\NavMenu.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-26T14:03:36.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\Parts\\NavMenu.razor",
-              "RelativeDocumentMoniker": "NiceAdminBlazorTheme\\Components\\Layout\\Parts\\NavMenu.razor",
-              "ToolTip": "D:\\devs\\gits\\NiceAdminBlazor\\NiceAdminBlazorTheme\\Components\\Layout\\Parts\\NavMenu.razor",
-              "RelativeToolTip": "NiceAdminBlazorTheme\\Components\\Layout\\Parts\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-26T14:03:34.188Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
