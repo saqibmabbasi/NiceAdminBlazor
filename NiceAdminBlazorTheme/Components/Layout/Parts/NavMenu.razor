@@ -1,0 +1,381 @@
+﻿@implements IDisposable
+
+@inject NavigationManager NavigationManager
+
+
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+        <li class="nav-item">
+            <NavLink class="nav-link " href="">
+                <i class="bi bi-grid"></i>
+                <span>Dashboard</span>
+            </NavLink>
+        </li><!-- End Dashboard Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="">
+                <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+            </NavLink>
+            <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <NavLink href="components/alerts">
+                        <i class="bi bi-circle"></i><span>Alerts</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/accordion">
+                        <i class="bi bi-circle"></i><span>Accordion</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/badges">
+                        <i class="bi bi-circle"></i><span>Badges</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/breadcrumbs">
+                        <i class="bi bi-circle"></i><span>Breadcrumbs</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/buttons">
+                        <i class="bi bi-circle"></i><span>Buttons</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/cards">
+                        <i class="bi bi-circle"></i><span>Cards</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/carousel">
+                        <i class="bi bi-circle"></i><span>Carousel</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/list-group">
+                        <i class="bi bi-circle"></i><span>List group</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/modal">
+                        <i class="bi bi-circle"></i><span>Modal</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/tabs">
+                        <i class="bi bi-circle"></i><span>Tabs</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/pagination">
+                        <i class="bi bi-circle"></i><span>Pagination</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/progress">
+                        <i class="bi bi-circle"></i><span>Progress</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/spinners">
+                        <i class="bi bi-circle"></i><span>Spinners</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="components/tooltips">
+                        <i class="bi bi-circle"></i><span>Tooltips</span>
+                    </NavLink>
+                </li>
+            </ul>
+        </li><!-- End Components Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="">
+                <i class="bi bi-journal-text"></i><span>Forms</span><i class="bi bi-chevron-down ms-auto"></i>
+            </NavLink>
+            <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <NavLink href="forms/forms-elements">
+                        <i class="bi bi-circle"></i><span>Form Elements</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="forms/forms-layouts">
+                        <i class="bi bi-circle"></i><span>Form Layouts</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="forms/forms-editors">
+                        <i class="bi bi-circle"></i><span>Form Editors</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="forms/forms-validation">
+                        <i class="bi bi-circle"></i><span>Form Validation</span>
+                    </NavLink>
+                </li>
+            </ul>
+        </li><!-- End Forms Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="">
+                <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+            </NavLink>
+            <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <NavLink href="tables/tables-general">
+                        <i class="bi bi-circle"></i><span>General Tables</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="tables/tables-data">
+                        <i class="bi bi-circle"></i><span>Data Tables</span>
+                    </NavLink>
+                </li>
+            </ul>
+        </li><!-- End Tables Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="">
+                <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+            </NavLink>
+            <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <NavLink href="charts/chart-js">
+                        <i class="bi bi-circle"></i><span>Chart.js</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="charts/apexcharts">
+                        <i class="bi bi-circle"></i><span>ApexCharts</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="charts/e-charts">
+                        <i class="bi bi-circle"></i><span>ECharts</span>
+                    </NavLink>
+                </li>
+            </ul>
+        </li><!-- End Charts Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="">
+                <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+            </NavLink>
+            <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <NavLink href="icons/bootstrap">
+                        <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="icons/remix">
+                        <i class="bi bi-circle"></i><span>Remix Icons</span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink href="icons/box-icons">
+                        <i class="bi bi-circle"></i><span>Boxicons</span>
+                    </NavLink>
+                </li>
+            </ul>
+        </li><!-- End Icons Nav -->
+
+        <li class="nav-heading">Pages</li>
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="pages/users-profile">
+                <i class="bi bi-person"></i>
+                <span>Profile</span>
+            </NavLink>
+        </li><!-- End Profile Page Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="pages/pages-faq">
+                <i class="bi bi-question-circle"></i>
+                <span>F.A.Q</span>
+            </NavLink>
+        </li><!-- End F.A.Q Page Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="pages/contact">
+                <i class="bi bi-envelope"></i>
+                <span>Contact</span>
+            </NavLink>
+        </li><!-- End Contact Page Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="pages/register">
+                <i class="bi bi-card-list"></i>
+                <span>Register</span>
+            </NavLink>
+        </li><!-- End Register Page Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="pages/login">
+                <i class="bi bi-box-arrow-in-right"></i>
+                <span>Login</span>
+            </NavLink>
+        </li><!-- End Login Page Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="pages/error-404">
+                <i class="bi bi-dash-circle"></i>
+                <span>Error 404</span>
+            </NavLink>
+        </li><!-- End Error 404 Page Nav -->
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="pages/blank">
+                <i class="bi bi-file-earmark"></i>
+                <span>Blank</span>
+            </NavLink>
+        </li><!-- End Blank Page Nav -->
+
+        <li class="nav-heading">Blazor Pages</li>
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="counter">
+                <i class="bi bi-plus-square-fill-nav-menu"></i> Counter
+            </NavLink>
+        </li>
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="weather">
+                <i class="bi bi-list-nested-nav-menu"></i> Weather
+            </NavLink>
+        </li>
+
+        <li class="nav-item">
+            <NavLink class="nav-link collapsed" href="auth">
+                <i class="bi bi-lock-nav-menu"></i> Auth Required
+            </NavLink>
+        </li>
+
+        <AuthorizeView>
+            <Authorized>
+                <li class="nav-item">
+                    <NavLink class="nav-link collapsed" href="Account/Manage">
+                        <i class="bi bi-person-fill-nav-menu"></i> @context.User.Identity?.Name
+                    </NavLink>
+                </li>
+                <li class="nav-item">
+                    <form action="Account/Logout" method="post">
+                        <AntiforgeryToken />
+                        <input type="hidden" name="ReturnUrl" value="@currentUrl" />
+                        <button type="submit" class="nav-link">
+                            <i class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true"></i> Logout
+                        </button>
+                    </form>
+                </li>
+            </Authorized>
+            <NotAuthorized>
+                <li class="nav-item">
+                    <NavLink class="nav-link collapsed" href="Account/Register">
+                        <span class="bi bi-person-nav-menu"></span> Register
+                    </NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link collapsed" href="Account/Login">
+                        <i class="bi bi-person-badge-nav-menu"></i> Login
+                    </NavLink>
+                </li>
+            </NotAuthorized>
+        </AuthorizeView>
+
+    </ul>
+
+</aside><!-- End Sidebar-->
+
+
+
+@* <div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">NiceAdminBlazorTheme</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="nav flex-column">
+        <div class="nav-item px-3">
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="weather">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="auth">
+                <span class="bi bi-lock-nav-menu" aria-hidden="true"></span> Auth Required
+            </NavLink>
+        </div>
+
+        <AuthorizeView>
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Account/Manage">
+                        <span class="bi bi-person-fill-nav-menu" aria-hidden="true"></span> @context.User.Identity?.Name
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <form action="Account/Logout" method="post">
+                        <AntiforgeryToken />
+                        <input type="hidden" name="ReturnUrl" value="@currentUrl" />
+                        <button type="submit" class="nav-link">
+                            <span class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true"></span> Logout
+                        </button>
+                    </form>
+                </div>
+            </Authorized>
+            <NotAuthorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Account/Register">
+                        <span class="bi bi-person-nav-menu" aria-hidden="true"></span> Register
+                    </NavLink>
+                </div>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Account/Login">
+                        <span class="bi bi-person-badge-nav-menu" aria-hidden="true"></span> Login
+                    </NavLink>
+                </div>
+            </NotAuthorized>
+        </AuthorizeView>
+    </nav>
+</div> *@
+
+
+@code {
+    private string? currentUrl;
+
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+}
+

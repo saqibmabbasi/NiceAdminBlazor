@@ -1,0 +1,28 @@
+﻿<div class="pagetitle">
+    <h1>@PageTitleText</h1>
+    <nav>
+        <ol class="breadcrumb">
+            @foreach (var item in BreadcrumbItems)
+            {
+                if (item.IsActive)
+                {
+                    <li class="breadcrumb-item active">@item.Text</li>
+                }
+                else
+                {
+                    <li class="breadcrumb-item"><a href="@item.Url">@item.Text</a></li>
+                }
+            }
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+@code {
+
+    [Parameter]
+	public string PageTitleText { get; set; }
+
+    [Parameter]
+	public List<BreadcrumbItem> BreadcrumbItems { get; set; } = new List<BreadcrumbItem>();
+
+}
